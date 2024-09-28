@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
 
       {/* lap top div */}
-      <div className="hidden md:flex gap-5 ">
+      <div className="hidden md:flex gap-5">
         {socialicon.map((item) => {
           return (
             <div className="w-10 flex text-2xl items-center justify-center bg-[#001820] text-white box-shadow p-2 cursor-pointer rounded-xl hover:bg-[#43b0f1] transition-all duration-500">
